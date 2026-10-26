@@ -1,44 +1,30 @@
-[Polski](README.md) | **English**
+🇵🇱 [Polski](README.md) | 🇬🇧 **English**
 
-# Python Bootcamp — 100 Days of Code (Day 16+)
+# 🐢 Python Bootcamp — OOP & Games (Day 16+)
 
-Continuation of my work on the **100 Days of Code: The Complete Python Pro Bootcamp** course, from Day 16 onwards — the part of the course where every project is a standalone script instead of a JetBrains Academy template. Days 1–15 are in the [Python_Basics](https://github.com/francesspot/Python_Basics) repository.
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 
-The focus here is **object-oriented programming** and simple games built with the `turtle` module.
+> 🎓 **100 Days of Code: The Complete Python Pro Bootcamp** course (Angela Yu, Udemy)
 
-## Projects
+The continuation of the course (the first 15 days are in [Python_Basics](https://github.com/francesspot/Python_Basics)). This is where **object-oriented programming** comes in, along with games drawn with the `turtle` module. 🎮
 
-| Folder | Day | What it is |
-|--------|-----|------------|
-| `day-16-start` | 16 | Introduction to OOP; **Coffee Machine** rewritten with classes (`CoffeeMaker`, `Menu`, `MoneyMachine`) |
-| `day-17-start` | 17 | Writing your own classes; **Quiz Game** (`Question`, `QuizBrain`) |
-| `day-18-start` | 18 | Turtle graphics; **Hirst Painting** — a dot painting with colours extracted from an image |
-| `day-19-start` | 19 | Event listeners; Etch-a-Sketch and a **Turtle Race** with betting |
-| `snake_game` | 20–21, 24 | **Snake** — with a scoreboard and a high score saved to `data.txt` |
-| `pong_game` | 22 | **Pong** for two players |
-| `turtle-crossing-start` | 23 | **Turtle Crossing** — a Frogger-like game with levels that speed up |
-| `day-24-start` | 24 | Reading and writing files |
-| `Mail Merge Project Start` | 24 | **Mail Merge** — generates a personalised invitation letter for each name on a list |
+## 🕹️ Projects
 
-## Requirements
+| | Project | What I practised |
+|---|---|---|
+| 🐍 | **Snake** — with a high score saved to a file | classes, collisions, file I/O |
+| 🏓 | **Pong** for two players | keyboard input, ball physics |
+| 🐸 | **Turtle Crossing** — levels that keep speeding up | managing many objects |
+| 🏁 | **Turtle Race** with betting on the winner | events, randomness |
+| 🎨 | **Hirst Painting** — a dot painting in colours extracted from a photo | the `colorgram` library |
+| ❓ | **Quiz** | my own classes (`Question`, `QuizBrain`) |
+| ☕ | **Coffee Machine**, object-oriented version | splitting code into classes |
+| ✉️ | **Mail Merge** — personalised invitations for a guest list | working with files |
 
-Python 3 with `tkinter` (needed by `turtle`; included in the standard Windows/macOS installers). Two projects need extra packages:
-
-```bash
-pip install prettytable colorgram.py
-```
-
-## Running
-
-Each game imports its own modules, so run it from inside its folder:
+## 🚀 Run it
 
 ```bash
+pip install prettytable colorgram.py   # needed by two projects only
 cd snake_game
 python main.py
-```
-
-The Mail Merge script is the exception — it uses paths relative to the repository root:
-
-```bash
-python "Mail Merge Project Start/main.py"
 ```
